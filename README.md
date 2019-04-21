@@ -1,9 +1,8 @@
-# Driver code for the LI-OV580-STEREO camera from Leopard Imaging
+# Retrieving Footage from the LI-OV580-STEREO stereo camera
 
-So I suppose you have decided to purchase the same camera me and my colleagues bought back in 2015 for a robot we were working on.
-Soon after receiving the camera, we started scratching our heads wondering how to retrieve stereo footage from it.
+This is a class in C++ that does the heavylifting of extracting the two (right-and-left) monochrome images from the LI-OV580-STEREO stereo camera, and doing this while giving meaningful error messages and recovering "cleanly" after a disconnection occurs which is common in 
+robotic applications.
 
-Worry no more, here you have a class in C++ that does the heavylifting for you. If you have any questions, please do not hesitate 
-to reach out!
+The camera is made by a company called Leopard Imaging.
 
 *last edited by Orwa Diraneyya on 21st of April, 2019*
